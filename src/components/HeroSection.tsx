@@ -1,5 +1,4 @@
 import { Heart, Rocket, Download } from "lucide-react";
-import profileImage from "@assets/propicture_1753290862965.jpeg";
 
 export default function HeroSection() {
   const scrollToProjects = () => {
@@ -36,7 +35,7 @@ export default function HeroSection() {
                 View My Work
               </button>
               <a 
-                href="/resume.pdf" 
+                href="/assets/resume.pdf" 
                 target="_blank"
                 className="inline-flex items-center px-6 py-3 border-2 border-primary-orange text-primary-orange rounded-lg font-semibold hover:bg-primary-orange hover:text-white transition-colors"
               >
@@ -48,7 +47,7 @@ export default function HeroSection() {
           <div className="lg:text-right">
             <div className="relative inline-block">
               <img 
-                src={profileImage} 
+                src="/assets/propicture.jpeg" 
                 alt="David's profile photo" 
                 className="w-64 h-64 rounded-2xl shadow-2xl object-cover"
               />
