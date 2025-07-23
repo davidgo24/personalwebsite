@@ -52,12 +52,18 @@ export default function ProjectsSection() {
                   <ExternalLink className="h-4 w-4 mr-2" />
                   View Live Site
                 </a>
-                <button className="flex-1 border-2 border-gray-300 text-gray-700 text-center py-3 rounded-lg font-semibold hover:border-gray-400 transition-colors flex items-center justify-center">
+
+                <a 
+                  href="https://github.com/davidgo24"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="flex-1 border-2 border-gray-300 text-gray-700 text-center py-3 rounded-lg font-semibold hover:border-gray-400 transition-colors flex items-center justify-center"
+                >
                   <Github className="h-4 w-4 mr-2" />
                   GitHub
-                </button>
+                </a>
               </div>
-            </div>
+            </div> {/* ✅ Closing Smart Start project card */}
           </div>
 
           {/* BizzyGlass */}
