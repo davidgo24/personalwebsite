@@ -1,4 +1,5 @@
 import { University, Smartphone, ExternalLink, Github, Plus, Info } from "lucide-react";
+import React from 'react';
 
 export default function ProjectsSection() {
   return (
