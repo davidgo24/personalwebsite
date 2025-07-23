@@ -33,8 +33,8 @@ export default function ProjectsSection() {
               
               <div className="grid grid-cols-2 gap-4 mb-6">
                 <div className="text-center p-4 bg-blue-50 rounded-lg">
-                  <div className="text-2xl font-bold text-blue-600">500+</div>
-                  <div className="text-sm text-gray-600">Users Helped</div>
+                  <div className="text-2xl font-bold text-blue-600">MVP</div>
+                  <div className="text-sm text-gray-600">Status</div>
                 </div>
                 <div className="text-center p-4 bg-green-50 rounded-lg">
                   <div className="text-2xl font-bold text-green-600">2</div>
@@ -43,10 +43,15 @@ export default function ProjectsSection() {
               </div>
               
               <div className="flex space-x-4">
-                <button className="flex-1 bg-primary-orange text-white text-center py-3 rounded-lg font-semibold hover:bg-orange-600 transition-colors flex items-center justify-center">
+                <a 
+                  href="https://bizzy-account-finder.vercel.app/" 
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="flex-1 bg-primary-orange text-white text-center py-3 rounded-lg font-semibold hover:bg-orange-600 transition-colors flex items-center justify-center"
+                >
                   <ExternalLink className="h-4 w-4 mr-2" />
                   View Live Site
-                </button>
+                </a>
                 <button className="flex-1 border-2 border-gray-300 text-gray-700 text-center py-3 rounded-lg font-semibold hover:border-gray-400 transition-colors flex items-center justify-center">
                   <Github className="h-4 w-4 mr-2" />
                   GitHub
@@ -70,8 +75,8 @@ export default function ProjectsSection() {
               
               <h3 className="text-2xl font-bold text-secondary-gray mb-4">BizzyGlass</h3>
               <p className="text-gray-600 mb-6">
-                Mobile auto glass repair platform serving 2 local business clients. Features SMS-based quoting, 
-                secure payments, and streamlined service coordination. Live at bizzytext.com.
+                Mobile auto glass repair platform serving 2 local automobile glass business clients. Features SMS-based quoting, 
+                secure payments, and streamlined service coordination for small business owners in my community.
               </p>
               
               <div className="grid grid-cols-2 gap-4 mb-6">
@@ -87,7 +92,7 @@ export default function ProjectsSection() {
               
               <div className="flex space-x-4">
                 <a 
-                  href="https://bizzytext.com" 
+                  href="https://www.bizzytext.com/" 
                   target="_blank"
                   rel="noopener noreferrer"
                   className="flex-1 bg-primary-orange text-white text-center py-3 rounded-lg font-semibold hover:bg-orange-600 transition-colors flex items-center justify-center"
