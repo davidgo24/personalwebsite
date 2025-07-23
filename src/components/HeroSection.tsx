@@ -35,7 +35,7 @@ export default function HeroSection() {
                 View My Work
               </button>
               <a 
-                href="/assets/resume.pdf" 
+                href="/assets/ResumeDavidGJr.pdf" 
                 target="_blank"
                 className="inline-flex items-center px-6 py-3 border-2 border-primary-orange text-primary-orange rounded-lg font-semibold hover:bg-primary-orange hover:text-white transition-colors"
               >
