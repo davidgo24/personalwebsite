@@ -49,7 +49,7 @@ export default function HeroSection() {
               <img 
                 src="/assets/propicture.jpeg" 
                 alt="David's profile photo" 
-                className="w-64 h-64 rounded-2xl shadow-2xl object-cover"
+                className="max-w-[16rem] w-full h-auto rounded-2xl shadow-2xl object-cover"
               />
               <div className="absolute -bottom-4 -right-4 w-16 h-16 bg-green-500 rounded-full flex items-center justify-center shadow-lg">
                 <svg className="w-6 h-6 text-white" fill="currentColor" viewBox="0 0 20 20">
